@@ -10,18 +10,20 @@
       "language-circuitpython:toggle-plotter"
     ]
   },
-  "repository": "https://github.com/jb3/language-circuitpython",
+  "repository": "https://github.com/dunkmann00/language-circuitpython",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
     "chart.js": "^2.8.0",
-    "serialport": "9.0.3",
-    "@serialport/bindings": "9.0.3"
+    "serialport": "9.2.0"
   },
   "deserializers": {
     "language-circuitpython/BoardView": "deserializeBoardView",
     "language-circuitpython/PlotterView": "deserializePlotterView"
+  },
+  "devDependencies": {
+    "prebuild": "^10.0.1"
   }
 }
