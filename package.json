@@ -1,7 +1,7 @@
 {
   "name": "language-circuitpython",
   "main": "./lib/language-circuitpython",
-  "version": "0.9.3",
+  "version": "0.9.4",
   "description": "Integrate CircuitPython devices straight into Atom!",
   "keywords": [],
   "activationCommands": {
