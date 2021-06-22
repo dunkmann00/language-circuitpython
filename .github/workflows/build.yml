@@ -26,4 +26,4 @@ jobs:
           architecture: ${{ matrix.architecture }}
       - run: npm install
       - name: Prebuild Serialport Bindings
-        run: npx prebuild --verbose --force --strip --target ${{ matrix.target }} --runtime electron --path node_modules/@serialport/bindings/ --upload ${{ secrets.UPLOAD_TOKEN }}"
+        run: npx prebuild --verbose --force --strip --target ${{ matrix.target }} --runtime electron --path node_modules/@serialport/bindings/ --upload ${{ secrets.UPLOAD_TOKEN }}
